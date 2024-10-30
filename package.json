@@ -23,6 +23,7 @@
     "url": "git://github.com/blakmatrix/node-zendesk.git"
   },
   "types": "./dist/types/index.d.ts",
+  "main": "./dist/index.js",
   "exports": {
     ".": {
       "import": "./dist/index.js",
