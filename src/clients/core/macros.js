@@ -21,7 +21,7 @@ class Macros extends Client {
    * const macros = await client.macros.list();
    */
   async list() {
-    return this.gettAll(['macros', 'active']);
+    return this.getAll(['macros', 'active']);
   }
 
   /**
@@ -76,7 +76,7 @@ class Macros extends Client {
    * const macros = await client.macros.listByParams({ active: true });
    */
   async listByParams(parameters) {
-    return this.gettAll(['macros', parameters]);
+    return this.getAll(['macros', parameters]);
   }
 
   /**
@@ -139,7 +139,7 @@ class Macros extends Client {
    * const macroCategories = await client.macros.categories();
    */
   async categories() {
-    return this.gettAll(['macros', 'categories']);
+    return this.getAll(['macros', 'categories']);
   }
 
   /**
